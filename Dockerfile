@@ -31,4 +31,4 @@ COPY php-fpm.conf /etc/php5/php-fpm.conf
 
 EXPOSE 9000
 
-CMD ["php-fpm", "-F"]
+CMD ["php-fpm5", "-F"]
